@@ -3,6 +3,13 @@ import React from 'react';
 import '../components/styles/about.css'; 
 import { Fade, Roll } from 'react-reveal';
 import mariaImage from '../assets/perfil.jpg'; 
+
+// Importa tu SVG aquí
+import reactIcon from '../assets/icons8-react-50.svg';
+import javastIcon from '../assets/icons8-javascript-48.svg';
+import htmltIcon from '../assets/icons8-html-48.svg';
+import sqltIcon from '../assets/icons8-mysql-50.svg';
+
 export default function AboutPage() {
   return (
     <div className="container pt-4">
