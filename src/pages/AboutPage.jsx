@@ -3,8 +3,10 @@ import React from 'react';
 import '../components/styles/about.css'; 
 import { Fade, Roll } from 'react-reveal';
 import mariaImage from '../assets/perfil.jpg'; 
+import Footer from './FooterPage'; 
 
-// Importa tu SVG aquí
+
+// Importa SVG 
 import reactIcon from '../assets/icons8-react-50.svg';
 import javastIcon from '../assets/icons8-javascript-48.svg';
 import htmltIcon from '../assets/icons8-html-48.svg';
@@ -54,11 +56,7 @@ export default function AboutPage() {
         <img src={sqltIcon} alt="sql Icon"/>
       </div>
       
-     {/* Footer */}
-     <footer className="footer bg-dark fixed-bottom d-flex justify-content-center align-items-center">
-        <a href="https://github.com/Pilar1936" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Github" className="icon"/></a>
-        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png" alt="LinkedIn" className="icon"/></a>
-      </footer>
+      <Footer /> {}
     </div>
   );
 }
