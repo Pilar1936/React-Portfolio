@@ -8,7 +8,6 @@ function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
 
-  // Función para manejar el evento de scroll
   const handleScroll = () => {
     if (window.scrollY > 100) {
       setScrolled(true);
@@ -17,7 +16,6 @@ function Nav() {
     }
   };
 
-  // Función para manejar el evento de abrir/cerrar el menú en dispositivos móviles
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -37,7 +35,7 @@ function Nav() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" onClick={toggleMenu} />
         <Navbar.Collapse id="navbar-nav" className={`justify-content-center ${isOpen ? 'show' : ''}`}>
-          <ul className="navbar-nav">
+          <ul className="navbar-nav ml-auto"> {/* Added ml-auto to push menu items to the right */}
             <li className="nav-item">
               <Link className="nav-link" to="/" onClick={toggleMenu}>Home</Link>
             </li>
