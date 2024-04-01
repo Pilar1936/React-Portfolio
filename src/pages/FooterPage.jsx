@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 import React from 'react';
 import '../components/styles/footer.css'; 
+=======
+// Footer.jsx
+import React from 'react';
+import '../components/styles/FooterPage.css'; 
+>>>>>>> 8afeeb71de3def77c35bd7cffd6485f974b8bad2
 
 function Footer() {
   return (

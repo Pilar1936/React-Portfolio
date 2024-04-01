@@ -3,6 +3,10 @@ import Particle from '../components/Particle';
 import backgroundImage from '../assets/earth.jpg'; 
 import '../components/styles/HomePages.css'; 
 import { Fade, Roll, LightSpeed } from 'react-reveal';
+<<<<<<< HEAD
+=======
+import Footer from './FooterPage';
+>>>>>>> 8afeeb71de3def77c35bd7cffd6485f974b8bad2
 
 function HomePage() {
   return (
@@ -27,6 +31,7 @@ function HomePage() {
             <p className="animated-paragraph">Here you'll find information about me and my projects.</p>
             <p className="animated-paragraph">Explore and discover more!</p>
           </LightSpeed>
+<<<<<<< HEAD
 
           <footer className="footer bg-dark fixed-bottom">
             <a href="https://github.com/Pilar1936" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Github" className="icon"/></a>
@@ -34,8 +39,17 @@ function HomePage() {
           </footer>
         </div>
       </div>
+=======
+        </div>
+      </div>
+      <Footer /> {/* Agrega el componente Footer al final de tu página */}
+>>>>>>> 8afeeb71de3def77c35bd7cffd6485f974b8bad2
     </div>
   );
 }
 
+<<<<<<< HEAD
 export default HomePage;
+=======
+export default HomePage;
+>>>>>>> 8afeeb71de3def77c35bd7cffd6485f974b8bad2

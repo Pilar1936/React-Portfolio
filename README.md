@@ -52,6 +52,8 @@ The following animation shows the web application's appearance and functionality
 
 ![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/abc4743d-ea2d-4dea-a293-cab9aaf09a65/deploy-status)](https://app.netlify.com/sites/maria-jones/deploys)
+
 ## Getting Started
 
 You’ll use `vite` to build your portfolio, which will include the following:
