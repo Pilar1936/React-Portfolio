@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-// Bringing in the required imports from 'react-router-dom' to set up application routing behavior
-
->>>>>>> 8afeeb71de3def77c35bd7cffd6485f974b8bad2
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
