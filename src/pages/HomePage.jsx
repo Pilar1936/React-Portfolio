@@ -30,7 +30,7 @@ function HomePage() {
           </LightSpeed>
         </div>
       </div>
-      <Footer /> {}
+      <Footer />
     </div>
   );
 }
