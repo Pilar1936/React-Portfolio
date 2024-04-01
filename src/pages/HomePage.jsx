@@ -1,7 +1,7 @@
 import React from 'react';
 import Particle from '../components/Particle';
 import backgroundImage from '../assets/earth.jpg'; 
-import '../components/styles/HomePages.css'; 
+import '../components/styles/home.css'; 
 import { Fade, Roll, LightSpeed } from 'react-reveal';
 import Footer from './FooterPage'; 
 
