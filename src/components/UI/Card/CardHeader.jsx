@@ -1,12 +1,21 @@
-import ProfileTeaser from '../ProfileSections/ProfileTeaser';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-export default function CardHeader({ user }) {
+const Header = () => {
   return (
-    <div className="card-header">
-      <ProfileTeaser user={user} />
-      <a href={`tel:${user.phone}`} className="ms-2 me-auto">
-        {user.phone}
-      </a>
-    </div>
+    <header>
+      <nav>
+        <ul>
+          <li><NavLink to="/" activeClassName="active">Home</NavLink></li>
+          <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
+          <li><NavLink to="/portfolio" activeClassName="active">Portfolio</NavLink></li>
+          <li><NavLink to="/project" activeClassName="active">Projects</NavLink></li>
+          <li><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
+
+        </ul>
+      </nav>
+    </header>
   );
 }
+
+export default Header;
