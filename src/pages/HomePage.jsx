@@ -3,7 +3,7 @@ import Particle from '../components/Particle';
 import backgroundImage from '../assets/earth.jpg'; 
 import '../components/styles/home.css'; 
 import { Fade, Roll, LightSpeed } from 'react-reveal';
-import Footer from './FooterPage'; 
+import Footer from '../components/Footer'; 
 
 function HomePage() {
   return (

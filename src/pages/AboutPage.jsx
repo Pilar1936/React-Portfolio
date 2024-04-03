@@ -3,7 +3,7 @@ import React from 'react';
 import '../components/styles/about.css'; 
 import { Fade, Roll } from 'react-reveal';
 import mariaImage from '../assets/perfil.jpg'; 
-import Footer from './FooterPage'; 
+import Footer from '../components/Footer'; 
 
 
 // Importa SVG 

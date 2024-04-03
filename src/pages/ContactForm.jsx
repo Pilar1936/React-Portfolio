@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import MarImage from '../assets/Maria.gif'; 
 import { Roll } from 'react-reveal';
-import Footer from './FooterPage';
+import Footer from '../components/Footer';
 
 
 
