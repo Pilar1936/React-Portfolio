@@ -41,7 +41,7 @@ function Portfolio() {
           ))}
         </div>
       </div>
-      <Footer /> {/* Agrega el componente Footer dentro del return del componente Portfolio */}
+      <Footer /> {}
     </section>
   );
 }

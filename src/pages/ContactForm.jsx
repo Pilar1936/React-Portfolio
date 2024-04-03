@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import MarImage from '../assets/Maria.gif'; 
-import { Roll } from 'react-reveal';
+// import { Roll } from 'react-reveal';
 import Footer from '../components/Footer';
 
 
@@ -63,9 +63,11 @@ const ContactForm = () => {
           </div>
           <button type="submit" className="btn btn-primary" style={{ width: '100%', marginTop: '10px' }}>Enviar</button>
         </form>
-        <Roll bottom>
+        {/* <Roll bottom> */}
+        <div>
           <img src={MarImage} alt="Maria" style={{ maxWidth: '400px' }} /> 
-        </Roll>
+        {/* </Roll> */}
+        </div>
       </div>
       <Footer /> {/* Agrega el componente Footer al final de tu página */}
     </div>
