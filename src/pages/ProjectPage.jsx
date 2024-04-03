@@ -3,7 +3,7 @@ import ProjectCards from '../pages/ProjectCards';
 import portfolio from '../portfolio.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../components/styles/portfolio.css'; 
-// import '../components/styles/foo'
+import Footer from '../components/Footer'; // Importa el componente Footer correctamente
 
 function Portfolio() {
   return (
@@ -41,6 +41,7 @@ function Portfolio() {
           ))}
         </div>
       </div>
+      <Footer /> {/* Agrega el componente Footer dentro del return del componente Portfolio */}
     </section>
   );
 }
