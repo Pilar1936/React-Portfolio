@@ -1,10 +1,7 @@
-// This is a static page mocking an "About Us" section for our fake user data
 import React from 'react';
 import '../components/styles/about.css'; 
-// import { Fade, Roll } from 'react-reveal';
 import mariaImage from '../assets/perfil.jpg'; 
 import Footer from '../components/Footer'; 
-
 
 // Importa SVG 
 import reactIcon from '../assets/icons8-react-50.svg';
@@ -17,46 +14,32 @@ export default function AboutPage() {
     <div className="container pt-4">
       <div className="about-container">
         <div className="about-text">
-          {/* <Fade> */}
-            <h2>Maria Jones</h2>
-          {/* </Fade> */}
-          {/* <Roll right> */}
-            <p className="text-left">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-              tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-              impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-              architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-              adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-              mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-              nostrum temporibus ad omnis nam rerum eligendi.
-            </p>
-            <p className="text-left">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-              tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-              impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-              architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-              adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-              mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-              nostrum temporibus ad omnis nam rerum eligendi.
-            </p>
-          {/* </Roll> */}
+          <h2 style={{ textAlign: 'center' }}>Maria Jones-Suarez</h2>
+          <p style={{ textAlign: 'justify', textIndent: '1.27cm' }}>
+          I'm Maria Jones-Suarez. I started in the world of programming a year ago, where I took two classes in HTML and CSS at Hennepin Collage. Since then, I became interested in learning more about programming. After finishing HTML and CSS classes, I decided to take the full stack bootcamp at the University of Minnesota, where I have acquired knowledge and skills in:          </p>
+          <ul>
+            <li>HTML</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>Web APIs</li>
+            <li>MongoDB</li>
+            <li>React</li>
+            <li>Handlebars</li>
+          </ul>
         </div>
-        {/* <Roll bottom> */}
-          <div className="about-image">
-            <img src={mariaImage} alt="Maria" /> {/* Si aún necesitas la imagen de María */}
-          </div>
-        {/* </Roll> */}
+        <div className="about-image">
+          <img src={mariaImage} alt="Maria" />
+        </div>
       </div>
 
-      {/* Contenedor para las imágenes a centrar */}
       <div className="image-container">
         <img src={reactIcon} alt="React Icon" />
-        <img src={javastIcon} alt="javas Icon" />
-        <img src={htmltIcon} alt="html Icon" />
-        <img src={sqltIcon} alt="sql Icon"/>
+        <img src={javastIcon} alt="JavaScript Icon" />
+        <img src={htmltIcon} alt="HTML Icon" />
+        <img src={sqltIcon} alt="SQL Icon" />
       </div>
       
-      <Footer /> {}
+      <Footer />
     </div>
   );
 }
