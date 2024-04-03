@@ -1,7 +1,7 @@
 // This is a static page mocking an "About Us" section for our fake user data
 import React from 'react';
 import '../components/styles/about.css'; 
-import { Fade, Roll } from 'react-reveal';
+// import { Fade, Roll } from 'react-reveal';
 import mariaImage from '../assets/perfil.jpg'; 
 import Footer from '../components/Footer'; 
 
@@ -17,10 +17,10 @@ export default function AboutPage() {
     <div className="container pt-4">
       <div className="about-container">
         <div className="about-text">
-          <Fade>
+          {/* <Fade> */}
             <h2>Maria Jones</h2>
-          </Fade>
-          <Roll right>
+          {/* </Fade> */}
+          {/* <Roll right> */}
             <p className="text-left">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
               tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
@@ -39,13 +39,13 @@ export default function AboutPage() {
               mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
               nostrum temporibus ad omnis nam rerum eligendi.
             </p>
-          </Roll>
+          {/* </Roll> */}
         </div>
-        <Roll bottom>
+        {/* <Roll bottom> */}
           <div className="about-image">
             <img src={mariaImage} alt="Maria" /> {/* Si aún necesitas la imagen de María */}
           </div>
-        </Roll>
+        {/* </Roll> */}
       </div>
 
       {/* Contenedor para las imágenes a centrar */}
