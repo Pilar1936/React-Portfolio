@@ -1,4 +1,4 @@
-# 20 React: React Portfolio
+# React: React Portfolio
 
 my first portfolio using React.
 
